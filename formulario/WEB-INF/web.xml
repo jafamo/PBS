@@ -1,0 +1,15 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
+
+
+
+  <servlet> 
+      <servlet-name>formulario</servlet-name> 
+      <servlet-class>formulario</servlet-class> 
+    </servlet> 
+
+    <servlet-mapping> 
+        <servlet-name>formulario</servlet-name> 
+        <url-pattern>/formulario</url-pattern> 
+    </servlet-mapping> 
+
+</web-app>

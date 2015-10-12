@@ -1,0 +1,85 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+  version="3.0"
+  metadata-complete="true">
+
+    <description>
+      Servlet and JSP Examples by Javier Farinos.
+    </description>
+    <display-name>Servlet and JSP Examples</display-name>
+  
+
+    <servlet>
+      <servlet-name>HolaMundo</servlet-name>
+      <servlet-class>HolaMundo</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HolaMundo</servlet-name>
+        <url-pattern>/HolaMundo</url-pattern>
+    </servlet-mapping>
+
+<servlet>
+	<servlet-name>RequestInfo</servlet-name>
+	<servlet-class>RequestInfo</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>RequestInfo</servlet-name>
+	<url-pattern>/RequestInfo</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>RequestHeaders</servlet-name>
+<servlet-class>RequestHeaders</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>RequestHeaders</servlet-name>
+	<url-pattern>/RequestHeaders</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>Principal</servlet-name>
+	<servlet-class>Principal</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>Principal</servlet-name>
+	<url-pattern>/Principal</url-pattern>
+</servlet-mapping>
+
+
+
+
+
+
+<!--
+	T E S T  L O G IN
+-->
+	<servlet>
+		<servlet-name>Form1</servlet-name>
+		<servlet-class>Form1</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Form1</servlet-name>
+		<url-pattern>/Form1</url-pattern>
+	</servlet-mapping>
+
+
+<!--
+	test
+-->
+
+<servlet>
+	<servlet-name>RequestParameters</servlet-name>
+	<servlet-class>RequestParameters</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>RequestParameters</servlet-name>
+	<url-pattern>/RequestParameters</url-pattern>
+</servlet-mapping>
+</web-app>

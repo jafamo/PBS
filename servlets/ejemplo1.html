@@ -1,0 +1,59 @@
+<HTML>
+    <HEAD>
+        <TITLE>Cuestionario inicial</TITLE>
+    </HEAD>
+    <BODY>
+        <H1>Cuestionario inicial</H1>
+        <BR> <P> 
+        Te agradeceria que dedicases unos minutos
+        a rellenar este cuestionario 
+        <BR>
+        <FORM action="Ejemplo" method="POST">
+        1.- Indica tu lenguaje de programacion preferido
+            <SELECT name="lengupref"
+            <OPTION value="pascal"</OPTION>Pascal
+            <OPTION value="c"</OPTION>C
+            <OPTION value="c++"</OPTION>C++
+            <OPTION value="delphi"</OPTION>Delphi
+            <OPTION value="ada"</OPTION>Ada
+            <OPTION value="java"</OPTION>Java
+            <OPTION value="visual basic"</OPTION>Visual Basic
+            <OPTION value="python"</OPTION>Python
+            </SELECT>
+        <P>
+        2.- Indica tu Sistema Operativo preferido <BR>
+            <INPUT type="radio" name="sopref" checked
+            value="linux">Linux
+            <INPUT type="radio" name="sopref"
+            value="windows">Windows
+            <INPUT type="radio" name="sopref"
+            value="mac">MacOS
+        <P>
+        3.- Indica los lenguajes que has utilizado <BR>
+            <INPUT type="checkbox" name="lengusa"
+            value="pascal">Pascal
+            <INPUT type="checkbox" name="lengusa"
+            value="c">C
+            <INPUT type="checkbox" name="lengusa"
+            checked value="c++">C++
+            <INPUT type="checkbox" name="lengusa"
+            value="java">Java
+            <INPUT type="checkbox" name="lengusa"
+            value="ada">Ada
+            <INPUT type="checkbox" name="lengusa"
+            value="python">Python 
+        <P>
+        4.- Tecnologias que piensas utilizar en un futuro proximo <BR>
+            <SELECT name="tecno" multiple size=3>
+            <OPTION value="corba"</OPTION>Corba
+            <OPTION value="rmi"</OPTION>RMI
+            <OPTION value="ejb"</OPTION>EJB
+            <OPTION value="com"</OPTION>COM
+            <OPTION value="xml"</OPTION>XML
+            <OPTION value="wap"</OPTION>WAP
+            </SELECT>
+        <P> <BR>
+        <INPUT type="submit" value="envia">
+        </FORM> 
+    </BODY>
+    </HTML>

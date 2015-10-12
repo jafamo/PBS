@@ -1,0 +1,14 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
+
+
+  <servlet> 
+      <servlet-name>parametro</servlet-name> 
+      <servlet-class>parametro</servlet-class> 
+    </servlet> 
+
+    <servlet-mapping> 
+        <servlet-name>parametro</servlet-name> 
+        <url-pattern>/parametro</url-pattern> 
+    </servlet-mapping> 
+
+</web-app>
